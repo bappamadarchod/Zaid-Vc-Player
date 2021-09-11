@@ -28,19 +28,19 @@ async def cbstart(_, query: CallbackQuery):
                          "👀 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 ᴅᴇᴠʟᴏᴘᴇʀ", url=f"https://t.me/Timesisnotwaiting")
+                        "💝 ᴅᴇᴠʟᴏᴘᴇʀ", url=f"https://t.me/The_Official_realme_417")
                 ],[
                     InlineKeyboardButton(
-                        "👥 ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Zaid_Support"
+                        "👥 ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/The_Official_realme_417"
                     ),
                     InlineKeyboardButton(
-                        "📣 ᴏꜰꜰɪᴄɪᴀʟ ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Zaid_Updates")
+                        "📣 ᴏꜰꜰɪᴄɪᴀʟ ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/The_Official_realme_417")
                 ],[
                     InlineKeyboardButton(
-                        "😈 ᴢᴀɪᴅ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴘ", url="https://t.me/Zaid_team1")
+                        "😈 ᴢᴀɪᴅ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴘ", url="https://t.me/The_Official_realme_417")
                 ],[
                     InlineKeyboardButton(
-                        "💥 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://github.com/Itsunknown-12/Zaid-Vc-Player"
+                        "💥 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://t.me/The_Official_realme_417"
                     )
                 ]
             ]
@@ -52,7 +52,7 @@ async def cbstart(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbhelp"))
 async def cbhelp(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>💡 Hello there, welcome to the help menu Powered by @Zaid_Updates !</b>
+        f"""<b>💡 Hello there, welcome to the help menu Powered by @The_Official_realme_417 !</b>
 
 **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
@@ -100,7 +100,7 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>🏮 here is the basic commands</b>
 
-🎧 [ ᴢᴀɪᴅ ɢʀᴘ ᴄᴍᴅꜱ ]
+🎧 [ Realme ɢʀᴘ ᴄᴍᴅꜱ ]
 
 /play (song name) - play song from youtube
 /ytp (song name) - play song directly from youtube 
@@ -112,7 +112,7 @@ async def cbbasic(_, query: CallbackQuery):
 /lyric - (song name) lyrics scrapper
 /vk (song name) - download song from inline mode
 
-🎧 [ ᴢᴀɪᴅ ᴄʜᴀɴɴᴇʟꜱ ᴄᴍᴅꜱ ]
+🎧 [ Realme ᴄʜᴀɴɴᴇʟꜱ ᴄᴍᴅꜱ ]
 
 /cplay - stream music on channel voice chat
 /cplayer - show the song in streaming
@@ -147,7 +147,7 @@ async def cbadvanced(_, query: CallbackQuery):
 /ping - check the bot ping status
 /uptime - check the bot uptime status
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} Realme__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -181,7 +181,7 @@ async def cbadmin(_, query: CallbackQuery):
 /m and /tm (mute / temporary mute) - mute permanently or temporarily muted user in group
 /um - to unmute user you're muted in group
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} Realme__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -253,7 +253,7 @@ async def cbfun(_, query: CallbackQuery):
 /truth - check it by yourself
 /dare - check it by yourself
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} Realme__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -276,7 +276,7 @@ async def cbguide(_, query: CallbackQuery):
 3.) **add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her**.
 4.) **turn on the voice chat first before start to play music**.
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME}Realme__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -368,7 +368,7 @@ and you can also set a time for the ban and mute penalties for members in your g
 
 📝 note: cmd /b, /tb and /ub is the function to banned/unbanned user from your group, whereas /m, /tm and /um are commands to mute/unmute user in your group.
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} Realme__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -398,7 +398,7 @@ async def cbdelcmds(_, query: CallbackQuery):
  2️⃣ to turn off feature:
      » type `/delcmd off`
       
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} Realme__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -418,7 +418,7 @@ async def cbhelps(_, query: CallbackQuery):
 
 **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} Realme__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -467,7 +467,7 @@ async def cbguides(_, query: CallbackQuery):
 3.) add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.
 4.) turn on the voice chat first before start to play music.
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} Realme__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
